@@ -139,3 +139,31 @@
 }
 /* subscribe section end */
 /* main section end */
+/* footer section start */
+.footer-section{
+    height: 449px;
+    background: #111010;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+
+}
+.footer-content{
+    align-items: center;
+    justify-content: center;
+    padding-top:128px ;
+}
+.footer-title{
+    color: #E55473;;
+}
+.footer-title span{
+    color: #FFF;
+}
+.footer{
+    color: rgba(255, 255, 255, 0.90);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
+/* footer section end */
