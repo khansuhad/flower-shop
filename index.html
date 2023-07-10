@@ -11,8 +11,25 @@
 </head>
 <body>
     <!-- header section start -->
+   <!-- navbar section start-->
+   <nav>
+    <div class="navbar">
+        <div class="logo-bar">
+        <h1 class="logo"><img src="images/logo.jpg" alt=""></span></h1>
+        <h1 class="logo"><strong><em>FlowerShop</em></strong></h1>
+    </div>
+    <div class="progressbar">
+        <a href="#Home">Home</a>
+        <a href="#Feature">Feature</a>
+        <a href="#Contract">Contract</a>
+        </div>
+    </div>
+</nav>
+   <!-- navbar section end-->
+
     <header>
-        <div class="header-section">
+       
+        <div class="header-section" id="Home">
             <div class="header-desc">
                     <h3 class="header-h3">Let's make beautiful flowers a part of your life.</h3>
                     <p class="p-primary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
@@ -29,7 +46,7 @@
       <!-- hot deal section start -->
       <section class="hot-deal">
         <div class="hot-deal-desc">
-            <h3 class="hot-deal-title">Hot Deal ! Sale Up To 25% Off</h3>
+            <h3 class="hot-deal-title">Hot Deal ! Sale Up To 25% <span>Off</span></h3>
             <p class="p-primary hot-deal-cation">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
             <button class="btn-primary">Sign up</button>
         </div>
@@ -39,7 +56,34 @@
     </section>
       <!-- hot deal section end -->
       <!-- instragram section start -->
-      <section class="instragram-section">
+      <section class="feature-section" id="Feature">
+        <div class="feature-head">
+            <h3 class="section-title">Our Featured Flowers</h3>
+            <p class="p-primary">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+        </div>
+        <div class="feature-picture">
+            <div class="feature-pictures1"><img src="images/pngwing 6.png" alt=""></div>
+            <div class="feature-pictures2"><img src="images/pngwing 5.png" alt=""></div>
+            <div class="feature-pictures3"><img src="images/pngwing 7.png" alt=""></div>
+        </div>
+        <div class="service-section">
+          <div class="services">
+            <div class="service-content">
+                <img src="images/Group 57.png" alt="">
+                <p>Same Day Delivery. Click & Collect.</p>
+            </div>
+            <div class="service-content">
+                <img src="images/Group 58.png" alt="">
+                <p>Fresh Flowers. Local Growers.</p>
+            </div>
+            <div class="service-content">
+                <img src="images/Group 59.png" alt="">
+                <p>24/7 Free Support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instragram-section" >
         <div class="instragram-head">
             <h3 class="section-title">Instragram</h3>
             <p class="p-primary">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
@@ -53,13 +97,13 @@
       </section>
       <!-- instragram section end -->
       <!-- subscribe section start -->
-        <section class="subscribe-section">
+        <section class="subscribe-section" id="Contract">
             <div class="subcribe-title">
                 <h3 class="section-title">Get The Latest Deals</h3>
                 <p class="p-primary "> $30 coupon for first shopping</p>
             </div>
             <div class="subscribe-input">
-                <input type="email" name="input" placeholder="Enter your email here..." class="s-input">
+                <input type="email" name="input" placeholder="  Enter your email here..." class="s-input">
                 <button class="btn-primary">Subscribe</button>
             </div>
           </section>
