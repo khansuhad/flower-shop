@@ -83,7 +83,7 @@
     text-align: center;
     margin-bottom: 30px;
 }
-.instragram-title{
+.section-title{
     margin-bottom: 20px;
     color: #272727;
     font-size: 40px;
@@ -100,4 +100,42 @@
     margin: 15px;
 }
 /* instragram section end */
+/* subscribe section start  */
+.subcribe{
+    margin:0 auto;
+}
+.subscribe-section{
+    background-image: url("images/Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+    margin-bottom: 150px;
+    margin: 0 240px;
+
+}
+.subcribe-title{
+
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.subcribe-title > .section-title{
+    margin-top: 40px;
+}
+.subscribe-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.s-input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 24px;
+    margin: 0 20px;
+    border: none;
+
+}
+/* subscribe section end */
 /* main section end */
