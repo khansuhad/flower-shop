@@ -263,11 +263,40 @@ height: 500px;
 
 }
 /* subscribe section end */
+/* contract section start */
+    .contract{
+        background: rgba(229, 84, 115, 0.10);
+        width: 1440px;
+        height: 449px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 240px;
+        border-radius: 8px;
+        padding-top: 50px;
+        padding-left: 40px;
+        display: flex;
+    }
+    .contractimg img{
+        width: 400px;
+        height: 400px;
+        padding-left: 250px;
+    }
+    .contract-info h3{
+        padding:5px;
+        font-size: 24px;
+    }
+    .contract-info a{
+        font-size: 50px;
+        padding-left: 10px;
+    }
+/* contract section end */
 /* main section end */
 /* footer section start */
 .footer-section{
     height: 449px;
-    background: #111010;
+    background-color: #111010;
     margin-top: 150px;
     text-align: center;
     align-items: center;
